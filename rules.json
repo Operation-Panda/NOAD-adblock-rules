@@ -15193,15 +15193,6 @@
   },
   {
     "trigger": {
-        "url-filter": ".*ads.*",
-        "if-domain": ["old.darkmtl.com"]
-    },
-    "action": {
-        "type": "block"
-    }
-  },
-  {
-    "trigger": {
         "url-filter": ".*doubleclick\\.net.*",
         "if-domain": ["old.darkmtl.com"]
     },
