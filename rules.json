@@ -9,34 +9,6 @@
   },
   {
     "trigger": {
-        "url-filter": ".*",
-        "if-domain": ["accounts.google.com", "google.com", "apis.google.com"]
-    },
-    "action": {
-        "type": "ignore-previous-rules"
-    }
-  }
-  {
-    "trigger": {
-      "url-filter": ".*ads.*",
-      "if-domain": ["forbes.com"]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*",
-      "resource-type": ["image"],
-      "if-domain": ["forbes.com"]
-    },
-    "action": {
-      "type": "ignore-previous-rules"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": ".*adnxs\\.com.*"
     },
     "action": {
@@ -34265,6 +34237,34 @@
     },
     "action": {
       "type": "block"
+    }
+  },
+  {
+    "trigger": {
+        "url-filter": ".*",
+        "if-domain": ["accounts.google.com", "google.com", "apis.google.com"]
+    },
+    "action": {
+        "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*ads.*",
+      "if-domain": ["forbes.com"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "resource-type": ["image"],
+      "if-domain": ["forbes.com"]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
     }
   }
 ]
