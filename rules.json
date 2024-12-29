@@ -34180,59 +34180,69 @@
     }
   },
   {
-    "trigger": {
-      "url-filter": ".*doubleclick\\.net.*"
+        "trigger": {
+            "url-filter": ".*doubleclick\\.net.*"
+        },
+        "action": {
+            "type": "block"
+        }
     },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*googleads\\.g\\.doubleclick\\.net.*"
+    {
+        "trigger": {
+            "url-filter": ".*googleads\\.g\\.doubleclick\\.net.*"
+        },
+        "action": {
+            "type": "block"
+        }
     },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*adservice\\.google\\.com.*"
+    {
+        "trigger": {
+            "url-filter": ".*adservice\\.google\\.com.*"
+        },
+        "action": {
+            "type": "block"
+        }
     },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtube\\.com/get_video_info.*&adformat="
+    {
+        "trigger": {
+            "url-filter": ".*youtube\\.com/get_video_info.*&adformat="
+        },
+        "action": {
+            "type": "block"
+        }
     },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtube\\.com/api/stats/ads.*"
+    {
+        "trigger": {
+            "url-filter": ".*youtube\\.com/api/stats/ads.*"
+        },
+        "action": {
+            "type": "block"
+        }
     },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtube\\.com/pagead/.*"
+    {
+        "trigger": {
+            "url-filter": ".*youtube\\.com/pagead/.*"
+        },
+        "action": {
+            "type": "block"
+        }
     },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtube\\.com/watch.*"
+    {
+        "trigger": {
+            "url-filter": ".*googlevideo\\.com.*",
+            "if-domain": ["youtube.com"]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
     },
-    "action": {
-      "type": "ignore-previous-rules"
+    {
+        "trigger": {
+            "url-filter": ".*youtube\\.com.*",
+            "if-domain": ["youtube.com"]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
     }
-  }
 ]
