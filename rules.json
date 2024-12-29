@@ -15192,6 +15192,15 @@
     }
   },
   {
+      "trigger": {
+        "url-filter": ".*ads.*",
+        "resource-type": ["image", "script"]
+      },
+      "action": {
+        "type": "block"
+      }
+  },
+  {
     "trigger": {
         "url-filter": ".*doubleclick\\.net.*",
         "if-domain": ["old.darkmtl.com"]
