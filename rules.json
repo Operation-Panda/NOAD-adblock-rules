@@ -3684,7 +3684,7 @@
       "url-filter": ".*firebase\\.googleapis\\.com.*"
     },
     "action": {
-      "type": "block"
+      "type": "ignore-previous-rules"
     }
   },
   {
