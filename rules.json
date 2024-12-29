@@ -34179,61 +34179,60 @@
       "type": "ignore-previous-rules"
     }
   },
-    {
-      "trigger": {
-        "url-filter": ".*doubleclick\\.net.*"
-      },
-      "action": {
-        "type": "block"
-      }
+  {
+    "trigger": {
+      "url-filter": ".*doubleclick\\.net.*"
     },
-    {
-      "trigger": {
-        "url-filter": ".*googleads\\.g\\.doubleclick\\.net.*"
-      },
-      "action": {
-        "type": "block"
-      }
-    },
-    {
-      "trigger": {
-        "url-filter": ".*&adfmt=.*"
-      },
-      "action": {
-        "type": "block"
-      }
-    },
-    {
-      "trigger": {
-        "url-filter": ".*doubleclick\\.net.*"
-      },
-      "action": {
-        "type": "block"
-      }
-    },
-    {
-      "trigger": {
-        "url-filter": ".*googleads\\.g\\.doubleclick\\.net.*"
-      },
-      "action": {
-        "type": "block"
-      }
-    },
-    {
-      "trigger": {
-        "url-filter": ".*&adfmt=.*"
-      },
-      "action": {
-        "type": "block"
-      }
-    },
-    {
-      "trigger": {
-        "url-filter": ".*youtube\\.com.*",
-        "if-domain": ["youtube.com"]
-      },
-      "action": {
-        "type": "ignore-previous-rules"
-      }
+    "action": {
+      "type": "block"
     }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*googleads\\.g\\.doubleclick\\.net.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*adservice\\.google\\.com.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*youtube\\.com/get_video_info.*&adformat="
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*youtube\\.com/api/stats/ads.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*youtube\\.com/pagead/.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*youtube\\.com/watch.*"
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  }
 ]
