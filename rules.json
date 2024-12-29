@@ -10,7 +10,7 @@
   {
     "trigger": {
         "url-filter": ".*",
-        "if-domain": ["accounts.google.com", "google.com"]
+        "if-domain": ["accounts.google.com", "google.com", "apis.google.com"]
     },
     "action": {
         "type": "ignore-previous-rules"
