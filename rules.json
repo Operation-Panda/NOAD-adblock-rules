@@ -15192,13 +15192,13 @@
     }
   },
   {
-      "trigger": {
+    "trigger": {
         "url-filter": ".*ads.*",
-        "resource-type": ["image", "script"]
-      },
-      "action": {
+        "if-domain": ["old.darkmtl.com"]
+    },
+    "action": {
         "type": "block"
-      }
+    }
   },
   {
     "trigger": {
