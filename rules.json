@@ -34266,5 +34266,41 @@
     "action": {
       "type": "ignore-previous-rules"
     }
-  }
+  },
+  [
+    {
+        "trigger": {
+            "url-filter": ".*doubleclick\\.net.*"
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*googleads\\.g\\.doubleclick\\.net.*"
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*&adfmt=.*"
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*youtube\\.com.*",
+        "if-domain": ["youtube.com"]
+      },
+      "action": {
+        "type": "ignore-previous-rules"
+      }
+    }
+]
+
 ]
