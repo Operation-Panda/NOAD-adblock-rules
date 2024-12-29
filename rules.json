@@ -4305,22 +4305,6 @@
   },
   {
     "trigger": {
-      "url-filter": ".*youtube\\.com.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtu\\.be.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": ".*instagram\\.com.*"
     },
     "action": {
@@ -4394,14 +4378,6 @@
   {
     "trigger": {
       "url-filter": ".*cmp\\.\\*\\.no.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtube\\.com/redirect\\?\\*.*"
     },
     "action": {
       "type": "block"
@@ -8586,14 +8562,6 @@
   {
     "trigger": {
       "url-filter": ".*yourube\\.com.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtubee\\.com.*"
     },
     "action": {
       "type": "block"
@@ -22497,23 +22465,7 @@
   },
   {
     "trigger": {
-      "url-filter": ".*youtuberevanced\\.\\*.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": ".*revancedmusic\\.com.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*revancedyoutube\\.org.*"
     },
     "action": {
       "type": "block"
@@ -23001,22 +22953,6 @@
   },
   {
     "trigger": {
-      "url-filter": ".*youtube\\.com/@Tesla\\.debate_live2024.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtube\\.com/@TheCryptoLarkCrypto.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": ".*teslafond\\.io.*"
     },
     "action": {
@@ -23034,14 +22970,6 @@
   {
     "trigger": {
       "url-filter": ".*btc24\\.info.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtube\\.com/@tesla24official.*"
     },
     "action": {
       "type": "block"
@@ -23082,14 +23010,6 @@
   {
     "trigger": {
       "url-filter": ".*trump\\-drop\\.org.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtube\\.com/@tesla\\.Iive\\.officiaI\\.24.*"
     },
     "action": {
       "type": "block"
@@ -23186,14 +23106,6 @@
   {
     "trigger": {
       "url-filter": ".*xaicrypto\\.org.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*youtube\\.com/@jesseeckel5.*"
     },
     "action": {
       "type": "block"
@@ -34269,12 +34181,36 @@
   },
   [
     {
-        "trigger": {
-            "url-filter": ".*doubleclick\\.net.*"
-        },
-        "action": {
-            "type": "block"
-        }
+      "trigger": {
+        "url-filter": ".*doubleclick\\.net.*"
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*googleads\\.g\\.doubleclick\\.net.*"
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*&adfmt=.*"
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*doubleclick\\.net.*"
+      },
+      "action": {
+        "type": "block"
+      }
     },
     {
       "trigger": {
