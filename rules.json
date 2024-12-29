@@ -15211,15 +15211,6 @@
   },
   {
     "trigger": {
-        "url-filter": ".*banner.*",
-        "if-domain": ["old.darkmtl.com"]
-    },
-    "action": {
-        "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": ".*every\\-dodo\\.com.*"
     },
     "action": {
