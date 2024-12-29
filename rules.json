@@ -34179,7 +34179,6 @@
       "type": "ignore-previous-rules"
     }
   },
-  [
     {
       "trigger": {
         "url-filter": ".*doubleclick\\.net.*"
