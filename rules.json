@@ -9,6 +9,15 @@
   },
   {
     "trigger": {
+        "url-filter": ".*",
+        "if-domain": ["accounts.google.com", "google.com"]
+    },
+    "action": {
+        "type": "ignore-previous-rules"
+    }
+  }
+  {
+    "trigger": {
       "url-filter": ".*ads.*",
       "if-domain": ["forbes.com"]
     },
