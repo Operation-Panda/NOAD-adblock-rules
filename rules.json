@@ -34140,5 +34140,30 @@
         "action": {
           "type": "block"
         }
+    },
+  {
+    "trigger": {
+      "url-filter": ".*facebook\\.com/api.*"
+    },
+    "action": {
+      "type": "ignore-previous-rules"
     }
+},
+  {
+    "trigger": {
+      "url-filter": ".*facebook\\.com/api/graphql.*"
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+},
+  {
+    "trigger": {
+      "url-filter": ".*facebook\\.com/api/graphql.*ads.*"
+    },
+    "action": {
+      "type": "block"
+    }
+}
+
 ]
