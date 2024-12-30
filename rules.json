@@ -97,30 +97,6 @@
   },
   {
     "trigger": {
-      "url-filter": ".*facebook\\.com/api/graphql/\\$xhr,replace=/\\\\\\{\"node\":\\\\\\{\"role\":\"SEARCH_ADS\"\\[.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*facebook\\.com/api/graphql/\\$xhr,replace=/\\\\\\{\"node\":\\\\\\{\"__typename\":\"MarketplaceFeedAdStory\"\\[.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*facebook\\.com/api/graphql/\\$xhr,replace=/\\\\\\{\"node\":\\\\\\{\"__typename\":\"VideoHomeFeedUnitSectionComponent\"\\[.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": ".*indiatimes\\.com.*"
     },
     "action": {
@@ -26153,14 +26129,6 @@
   },
   {
     "trigger": {
-      "url-filter": ".*facebook\\-login\\.mobiletracker\\.pk.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": ".*slimhealth\\.us.*"
     },
     "action": {
@@ -26186,30 +26154,6 @@
   {
     "trigger": {
       "url-filter": ".*easy\\-way\\-system\\.sbs.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*notificationbyfacebook\\.firebaseapp\\.com.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*notificationbyfacebook\\.web\\.app.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*business\\-facebook\\-\\*\\.pages\\.dev.*"
     },
     "action": {
       "type": "block"
@@ -26249,14 +26193,6 @@
   },
   {
     "trigger": {
-      "url-filter": ".*facebook\\-guidelines\\.com.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": ".*certify\\-issues\\-details\\-case\\.netlify\\.app.*"
     },
     "action": {
@@ -26281,14 +26217,6 @@
   },
   {
     "trigger": {
-      "url-filter": ".*mfacebook\\-com\\.vn.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": ".*123456789login\\.weebly\\.com.*"
     },
     "action": {
@@ -26297,63 +26225,7 @@
   },
   {
     "trigger": {
-      "url-filter": ".*www\\-facebook\\-com\\.vn.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*vww\\-facebook\\.com\\.vn.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*www\\-facebooks\\.com\\.vn.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": ".*faceb00k\\.com\\.vn.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*facebooks\\-com\\.vn.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*mobile\\-facebook\\.com\\.vn.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*m\\-facebookk\\.com\\.vn.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*mfacebookk\\.com\\.vn.*"
     },
     "action": {
       "type": "block"
@@ -26594,14 +26466,6 @@
   {
     "trigger": {
       "url-filter": ".*befuls\\.shop.*"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": ".*facebook\\-mobiia\\.click.*"
     },
     "action": {
       "type": "block"
@@ -34243,6 +34107,38 @@
         },
         "action": {
             "type": "ignore-previous-rules"
+        }
+    },
+  {
+        "trigger": {
+          "url-filter": ".*facebook\\.com.*"
+        },
+        "action": {
+          "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+          "url-filter": ".*facebook\\.com/api/graphql.*ads.*"
+        },
+        "action": {
+          "type": "block"
+        }
+    },
+    {
+        "trigger": {
+          "url-filter": ".*facebook\\-guidelines\\.com.*"
+        },
+        "action": {
+          "type": "block"
+        }
+    },
+    {
+        "trigger": {
+          "url-filter": ".*mobile\\-facebook\\.com\\.vn.*"
+        },
+        "action": {
+          "type": "block"
         }
     }
 ]
